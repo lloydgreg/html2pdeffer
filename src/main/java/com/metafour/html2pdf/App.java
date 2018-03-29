@@ -35,7 +35,7 @@ public class App
    	  tidy.parse(is,newFile);
    	  renderer.setDocument("src/label/interlinkPretty.xhtml");
    	  renderer.layout();
-   	  renderer.createPDF(os);d
+   	  renderer.createPDF(os);
    	  newFile.close();
    	  os.close();
     }
